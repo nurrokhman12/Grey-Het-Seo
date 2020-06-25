@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html>
+<title>Contact Us</title>
+<link rel="shortcut icon" href="rz.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.php" class="w3-bar-item w3-button w3-theme-l1"><img src="cuy.png"></a>
+    <a href="privacypolice.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Privacy Police</a>
+    <a href="disclamer.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Disclamers</a>
+    <a href="contactus.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact Us</a>
+  </div>
+</div>
+    <br>
+    <br>
+<h2>Responsive Contact Section</h2>
+<p>Resize the browser window to see the effect.</p>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column ">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Indonesia</option>
+          <option value="canada">Arab Saudi</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+<footer class="w3-container w3-padding-32 w3-White w3-center">
+  <div class="col-md-12 text-center">
+                <a class="w3-bar-item w3-button" style="color:Tomato;" href="privacypolice.html">Privacy Police</a>
+                <a class="w3-bar-item w3-button" style="color:Tomato;" href="disclamer.html">Disclamers</a>
+                <a class="w3-bar-item w3-button" style="color:Tomato;" href="contactus.html">Contact Us</a>
+                      
+      </div>
+  <h4 " style="color:Tomato;">Follow Us Here!</h4>
+  <div class="w3-xlarge w3-section" style="color:Tomato;">
+    <i class="fa fa-facebook-official w3-hover-opacity" href="https://www.facebook.com"></i>
+    <i class="fa fa-instagram w3-hover-opacity" href="https://www.instagram.com"></i>
+    <i class="fa fa-snapchat w3-hover-opacity" href="https://www.snapchat.com"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity" href="https://www.pinterestcom"></i>
+    <i class="fa fa-twitter w3-hover-opacity" href="https://www.twitter.com"></i>
+    <i class="fa fa-linkedin w3-hover-opacity" href="https://www.linkedin.com"></i>
+  </div>
+  <p " style="color:Tomato;">Powered by Nurrokhman2019</p>
+</footer>
+</body>
+</html>

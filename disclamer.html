@@ -1,0 +1,88 @@
+<?php
+
+
+$file = fopen("../keywords.txt","r");
+for ($i=0; $i < 25; $i++) { 
+  $line = fgets($file);
+  $line = rtrim($line);
+  $allkeywords[] = $line;
+}
+fclose($file);
+
+shuffle($allkeywords);
+
+?>
+
+
+<!DOCTYPE html>
+<html>
+<title>Disclaimer</title>
+<link rel="shortcut icon" href="rz.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+	<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.php" class="w3-bar-item w3-button w3-theme-l1"><img src="cuy.png"></a>
+    <a href="privacypolice.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Privacy Police</a>
+    <a href="disclamer.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Disclamers</a>
+    <a href="contactus.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact Us</a>
+  </div>
+</div>
+		<br>
+		<br>
+<h1> Disclaimer for </h1>
+<p> If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by email at <a href="mailto:"></a>.<br />
+<h2>Disclaimers for :</h2>
+<p>
+All the information on this website is published in good faith and for general information purpose only.  does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (), is strictly at your own risk.  will not be liable for any losses and/or damages in connection with the use of our website.
+</p>
+<p>
+From our website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone 'bad'.
+</p>
+<p>
+Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their "Terms of Service" before engaging in any business or uploading any information.
+</p>
+
+<h3>Consent</h3>
+<p>
+By using our website, you hereby consent to our disclaimer and agree to its terms.
+</p><h3>Update</h3>This site disclaimer was last updated on: Friday, August 23rd, 2019<br /><em> · Should we update, amend or make any changes to this document, those changes will be prominently posted here.</em><br /><br /><hr />
+
+<footer class="w3-container w3-padding-32 w3-White w3-center">
+  <div class="col-md-12 text-center">
+                <a class="w3-bar-item w3-button" style="color:Tomato;" href="privacypolice.html">Privacy Police</a>
+                <a class="w3-bar-item w3-button" style="color:Tomato;" href="disclamer.html">Disclamers</a>
+                <a class="w3-bar-item w3-button" style="color:Tomato;" href="contactus.html">Contact Us</a>
+                      
+      </div>
+  <h4 " style="color:Tomato;">Follow Us Here!</h4>
+  <div class="w3-xlarge w3-section" style="color:Tomato;">
+    <i class="fa fa-facebook-official w3-hover-opacity" href="https://www.facebook.com"></i>
+    <i class="fa fa-instagram w3-hover-opacity" href="https://www.instagram.com"></i>
+    <i class="fa fa-snapchat w3-hover-opacity" href="https://www.snapchat.com"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity" href="https://www.pinterestcom"></i>
+    <i class="fa fa-twitter w3-hover-opacity" href="https://www.twitter.com"></i>
+    <i class="fa fa-linkedin w3-hover-opacity" href="https://www.linkedin.com"></i>
+  </div>
+  <p " style="color:Tomato;">Powered by Nurrokhman2019</p>
+</footer>
+</body>
+</html>
